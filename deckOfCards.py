@@ -19,7 +19,9 @@ class card(object):
 
 class deck(card): 
 # deck is made up of 52 cards. There are four suits and the J,K,Q are all 
-# represented as "10" in the values". The deck can be shuffled 
+# represented as "10" in the "values". The deck can be shuffled and I wrote
+# the getters of the members for the deck objects.
+
     def __init__(self):
         self.deckSuits = ["heart", "spade", "club", "diamond"]
         self.deckValue = [2,3,4,5,6,7,8,9,10,10,10,10,"A"]
@@ -92,7 +94,8 @@ class blackjack(player):
 # split or ask for insurance. In the reset function the player starts another
 # blackjack game against the dealer. A new deck is started when there are not 
 # enough cards to be played with. The value of an Ace has to be decided when
-# it first comes up. 
+# it first comes up. The player also decides what the value of the Ace is if 
+# the dealer gets an Ace
     
     def __init__(self):
         self.deckOfCards = deck()
