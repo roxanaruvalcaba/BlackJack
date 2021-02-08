@@ -7,4 +7,4 @@ Can I create a game to play BlackJack?
 
 ### Contents
 - [PPT](./Blackjack_Design)
-- [Code](./DeckOfCards.ipynb)
+- [Code](./DeckOfCards.py)
