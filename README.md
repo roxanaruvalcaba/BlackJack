@@ -6,5 +6,5 @@ I learned Python through watching pre-recorded classes online and a lot of pract
 Can I create a game to play BlackJack?
 
 ### Contents
-- [PPT](./Blackjack_Design.pptx)
+- [PPT](./Blackjack_Design.pdf)
 - [Code](./deckOfCards.py)
